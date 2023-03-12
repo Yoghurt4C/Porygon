@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --icon=porygon.ico porygon.py
