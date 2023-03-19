@@ -1,0 +1,20 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //todo? testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
+
+application {
+    mainClass = 'mods.porygon.Porygon'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
